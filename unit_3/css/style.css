@@ -1,0 +1,101 @@
+* {
+	padding: 10;
+	margin: 20;
+	text-align: center;
+}
+
+body {
+	background-color: #E8E8E8;
+}
+
+h1{
+	color: #FF530D;
+	text-transform: capitalize;
+}
+
+h2 {
+	color:ff530d;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h3{
+	color: #FF530D;
+	font-style: bold;
+	font-size: 23px;
+	text-align: center;
+	text-transform: uppercase;
+	font-style: sans-serif;
+
+}
+
+p{
+	font-family: sans-serif;
+}
+
+ul{
+
+}
+
+li{
+
+}
+
+img{
+		border-radius: 8px;
+}
+
+#slogan {
+	font-style: italic;
+}
+
+.cta {
+	font: italic bold 18px arial, sans-serif;
+}
+
+.heroimage {
+	border-radius: 20px;
+}
+
+.smiconsheader {
+	height: 40px;
+	width: 40px;
+}
+
+.smiconsfooter {
+	height: 30px;
+	width: 30px;
+}
+
+.mainmenu {
+	font-style: bold;
+	text-decoration: none;
+	font-size: 24px;
+	padding: 15px;
+}
+
+.nav {
+	text-align: center;
+}
+
+.cta-parent { 
+	text-align:center; 
+}
+
+.cta {
+	background:#FF530D; 
+	display:inline-block; 
+	margin:5px 15px 5px 15px; 
+	padding: 5px; 
+}
+
+.hours-parent { 
+	text-align:center; 
+	vertical-align: top;
+}
+
+.hours {
+	background:#C4C3C4; 
+	display:inline-block; 
+
+}
