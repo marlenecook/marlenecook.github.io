@@ -1,11 +1,18 @@
 * {
-	padding: 10;
-	margin: 20;
-	text-align: center;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
-
+img{  /* temporary code for managable images - delete later */
+	width: 300px;
+	height: initial;
+}
 body {
-	background-color: #fff;
+	color: #333;
+	font-size: 16px;
+	font-family:helvetica, arial, sans-serif;
+	line-height: 1.3;
+	text-align:center;
 }
 
 h1{
@@ -14,8 +21,7 @@ h1{
 }
 
 h2 {
-	color:ff530d;
-	text-align: center;
+	color:#ff530d;
 	text-transform: uppercase;
 }
 
@@ -29,22 +35,7 @@ h3{
 
 }
 
-p{
-	font-family: sans-serif;
-}
-
-ul{
-
-}
-
-li{
-
-}
-
-img{
-		border-radius: 8px;
-}
-
+ul{padding-left: 1.25em;}
 #slogan {
 	font-style: italic;
 }
@@ -58,7 +49,6 @@ img{
 }
 
 .smiconsheader {
-	height: 40px;
 	width: 40px;
 }
 
@@ -83,19 +73,21 @@ img{
 }
 
 .cta {
-	background:#FF530D; 
-	display:inline-block; 
-	margin:5px 15px 5px 15px; 
-	padding: 5px; 
+	background:#FF530D;
+	display:inline-block;
+	margin: .5em 1em;
+	padding: 1em 2em;
+	text-decoration: none;
+	color: #fff;
+	font-family: georgia;
 }
 
-.hours-parent { 
-	text-align:center; 
+.hours-parent {
+	text-align:center;
 	vertical-align: top;
 }
 
 .hours {
-	background:#C4C3C4; 
-	display:inline-block; 
-
+	background:#C4C3C4;
+	/* display:inline-block; */
 }
