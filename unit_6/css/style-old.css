@@ -1,0 +1,323 @@
+<<<<<<< HEAD
+@import url(https://fonts.googleapis.com/css?family=Taviraj);
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+@import url(https://fonts.googleapis.com/css?family=Gorditas);
+
+- header = 
+- nav = 
+- aside = #FFC675
+- article = 
+- footer = 
+- div / section = 
+
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+nav {
+    background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+}
+article {
+    background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+footer {
+    background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+div, section {
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+
+* {
+	padding: 10;
+	margin: 20;
+	text-align: center;
+}
+
+body {
+	background-color: #fff;
+	font-size: 15px; /*1em = 15px*/
+	text-align: center;
+	position: relative;
+}
+
+h1{
+	font-family: 'Nunito', sans-serif;
+	font-size: 2em;
+	color: #FF530D;
+	text-transform: uppercase;
+	word-spacing: .1em;
+}
+
+h2 {
+	font-family: 'Nunito', sans-serif;
+	font-size: 1.75em;
+	color:ff530d;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h3{
+	font-family: 'Nunito', sans-serif;
+	color: #FF530D;
+	font-style: bold;
+	font-size: 1.25em;
+	text-align: center;
+	font-style: sans-serif;
+	text-transform: uppercase;
+}
+
+p, li{
+	font-family: 'Taviraj', sans-serif;
+	font-size: 1em;
+
+}
+
+ul{
+
+}
+
+li{
+
+}
+
+img{
+	border-radius: 8px;
+	width: 150px;
+}
+
+#slogan {
+	font-style: italic;
+	font-size: 1.25em;
+	word-spacing: .2em;
+	letter-spacing: .1em;
+}
+
+.cta {
+	font: italic bold 1.25em arial, sans-serif;
+	text-decoration: none;
+}
+
+.heroimage {
+	border-radius: 20px;
+}
+
+.smiconsheader {
+	height: 40px;
+	width: 40px;
+}
+
+.smiconsfooter {
+	height: 30px;
+	width: 30px;
+}
+
+.mainmenu {
+	font-style: bold;
+	text-decoration: none;
+	font-size: 1.25em;
+	padding: .5em;
+}
+
+.nav {
+	text-align: center;
+}
+
+.intro {
+    background-image: url("../images/hero.jpg");
+}
+
+.cta-parent { 
+	text-align:center; 
+}
+
+.cta {
+	background:#FF530D; 
+	font-size: 1.25em;
+	display:inline-block; 
+	margin:.5em 1em .5em 1em; 
+	padding: .5em; 
+	letter-spacing: .1em;
+}
+
+.hours-parent {
+	text-align:center;
+	vertical-align: top;
+}
+
+.hours {
+	background:#C4C3C4;
+	display:inline-block;
+}
+
+=======
+@import url(https://fonts.googleapis.com/css?family=Taviraj);
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+@import url(https://fonts.googleapis.com/css?family=Gorditas);
+
+- header = 
+- nav = 
+- aside = #FFC675
+- article = 
+- footer = 
+- div / section = 
+
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+nav {
+    background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+}
+article {
+    background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+footer {
+    background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+div, section {
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+
+* {
+	padding: 10;
+	margin: 20;
+	text-align: center;
+}
+
+body {
+	background-color: #fff;
+	font-size: 15px; /*1em = 15px*/
+	text-align: center;
+	position: relative;
+}
+
+h1{
+	font-family: 'Nunito', sans-serif;
+	font-size: 2em;
+	color: #FF530D;
+	text-transform: uppercase;
+	word-spacing: .1em;
+}
+
+h2 {
+	font-family: 'Nunito', sans-serif;
+	font-size: 1.75em;
+	color:ff530d;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h3{
+	font-family: 'Nunito', sans-serif;
+	color: #FF530D;
+	font-style: bold;
+	font-size: 1.25em;
+	text-align: center;
+	font-style: sans-serif;
+	text-transform: uppercase;
+}
+
+p, li{
+	font-family: 'Taviraj', sans-serif;
+	font-size: 1em;
+
+}
+
+ul{
+
+}
+
+li{
+
+}
+
+img{
+	border-radius: 8px;
+	width: 150px;
+}
+
+#slogan {
+	font-style: italic;
+	font-size: 1.25em;
+	word-spacing: .2em;
+	letter-spacing: .1em;
+}
+
+.cta {
+	font: italic bold 1.25em arial, sans-serif;
+	text-decoration: none;
+}
+
+.heroimage {
+	border-radius: 20px;
+}
+
+.smiconsheader {
+	height: 40px;
+	width: 40px;
+}
+
+.smiconsfooter {
+	height: 30px;
+	width: 30px;
+}
+
+.mainmenu {
+	font-style: bold;
+	text-decoration: none;
+	font-size: 1.25em;
+	padding: .5em;
+}
+
+.nav {
+	text-align: center;
+}
+
+.intro {
+    background-image: url("../images/hero.jpg");
+}
+
+.cta-parent { 
+	text-align:center; 
+}
+
+.cta {
+	background:#FF530D; 
+	font-size: 1.25em;
+	display:inline-block; 
+	margin:.5em 1em .5em 1em; 
+	padding: .5em; 
+	letter-spacing: .1em;
+}
+
+.hours-parent {
+	text-align:center;
+	vertical-align: top;
+}
+
+.hours {
+	background:#C4C3C4;
+	display:inline-block;
+}
+
+>>>>>>> 7ae92807430d217e31345878db9b8f610a0a565f
