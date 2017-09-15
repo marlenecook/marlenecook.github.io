@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url(https://fonts.googleapis.com/css?family=Taviraj);
 @import url(https://fonts.googleapis.com/css?family=Nunito);
 @import url(https://fonts.googleapis.com/css?family=Gorditas);
@@ -245,3 +246,275 @@ footer {
 }
 
 
+=======
+@import url(https://fonts.googleapis.com/css?family=Taviraj);
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+@import url(https://fonts.googleapis.com/css?family=Gorditas);
+
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+}
+
+body {
+	background-color: #fff;
+	font-size: 16px; /*1em = 15px*/
+	text-align: center;
+	position: relative;
+}
+
+h1{
+	font-family: 'Nunito', sans-serif;
+	font-size: 2em;
+	color: #FF530D;
+	text-transform: uppercase;
+	word-spacing: .1em;
+}
+
+h2 {
+	font-family: 'Nunito', sans-serif;
+	font-size: 1.75em;
+	color: #FF530D;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h3{
+	font-family: 'Nunito', sans-serif;
+	color: #000;
+	font-style: bold;
+	font-size: 1.25em;
+	text-align: center;
+	font-style: sans-serif;
+	text-transform: uppercase;
+}
+
+
+ul {
+	list-style-type: none;
+}
+
+p, li{
+	font-family: 'Taviraj', serif;
+	font-size: 1.25em;
+}
+
+#topline {
+    padding: 0px;
+    position: relative;
+}
+
+a {
+	font-size: 1em;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#logobox {
+    float: left;
+    width: 10%;
+    padding: 10px;
+}
+
+#logo {
+	height: 75px;
+    padding: 0px;
+}
+
+#headersmicons {
+    padding: 20px;
+    float: right;   
+    width: 25%;
+    vertical-align: middle;
+    text-align: right;
+}
+
+.headersmicons {
+	height: 40px;
+	padding: 3px;
+}
+
+#navbuttons {
+	padding: 15px;
+	text-align: center;
+	width: 100%;
+	float: center;
+	background: lightgrey;
+}
+
+.mainmenu {
+	display: inline;
+	text-decoration: none;
+	color: black;
+	font-family: 'Nunito' sans-serif;
+	font-style: bold;
+	font-size: 1.5em;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#hero {
+	background-image: url("../images/hero.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+    /* padding: 5em 0 0; */
+    height: 60vh;
+    position: relative;
+	display: block;
+	border: 1;
+
+}
+
+#herotext {
+	font-family: 'Taviraj' sans-serif;
+	font-size: 3em;
+	text-align: left;
+	padding-top: 50px;
+	padding-left: 1rem;
+	font-weight: bolder;
+}
+
+#heroslogan {
+	font-family: "Taviraj" sans-serif;
+	font-size: 2em;
+	text-align: left;
+	margin-left: 1rem;
+	font-weight: bold;
+	font-style: italic;
+	margin-bottom: 0em;
+}
+
+
+
+#donatebuttons {
+	text-align: left;
+	position: relative;
+	/* height: 30em; */
+	/* color: purple; */
+	margin-left: 10%;
+}
+
+.cta {
+	display: inline-block;
+	margin: 1rem;
+	padding: 1rem;
+	font: bold 1.5em arial, sans-serif;
+	color: #fff;
+	background: #FF530D;
+	text-decoration: none;
+}
+
+#hours {
+ 	text-align: center;
+ 	margin: 30px auto;
+}
+
+.hoursheadline {
+	font-size: 1.25em;
+}
+
+.hoursbox {
+	float: left;
+	border-top: .25em solid #FF530D;
+	padding: 40px 20px 40px 20px;
+	vertical-align: top;
+	width: 31.33%;
+	margin: 0 1%;
+	text-align: left;
+}
+
+
+#impact {
+	text-align: center;
+	margin-top:10px;
+	margin-bottom: 30px;
+	background: lightgrey;
+}
+
+
+.impact-section {
+	float: left;
+	padding: 10px 20px 10px 20px;
+	text-align: center;
+	width: 20%;
+}
+
+.staticons {
+	height: 125px;
+}
+
+.numbers {
+	font-weight: bolder;
+	font-size: 2.5em;
+}
+
+footer {
+	text-align: center;
+	padding: 10px 0px 30px 0px;
+	vertical-align: top;
+	max-width: 1200px;
+	margin: auto;
+}
+
+.footersection {
+	/* border: 1px solid black; */
+	width: 33.33%;
+	float: left;
+}
+
+#footer-sm {
+
+}
+
+#footer-contactus {
+
+}
+
+#footer-pba {
+
+}
+
+.pbalogo {
+	padding: 5px;
+}
+
+.smiconsfooter {
+	float: left;
+	width: 33.33%;
+	padding: .5em;
+}
+
+header {
+    border-top: .25em solid #FF530D;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: auto;
+}
+
+section {
+    padding: 4em 0;
+}
+
+.smiconsfooter img {
+    width: 50%;
+}
+
+#topline .cta {
+    position: absolute;
+    margin: 0;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+>>>>>>> e1f650447b587b7cfdb73d445e9f4a156b8298cd
